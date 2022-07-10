@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #1F4690;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E8AA42;
+    width: 500px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.counter {
+    display: flex;
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #1F4690;
+    background-color: rgb(241, 214, 214);
+    color: #1F4690;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
+.zero {
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: 2px solid #1F4690;
+    background-color: rgb(241, 214, 214);
+    color: #1F4690;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}

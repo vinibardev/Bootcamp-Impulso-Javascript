@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,300;1,500&family=Rajdhani&display=swap"
+        rel="stylesheet">
+    <title>Contador</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CONTADOR</h1>
+        <h4>Utilize este programa para fazer contagens!</h4>
+        <div class="counter">
+            <button class="btn" name="subt" id="decrement" onclick="decrement()">-</button>
+            <span id="currentNumber">0</span>
+            <button class="btn" name="add" id="increment" onclick="increment()">+</button>
+        </div>
+        <div>
+            <input type="reset" class="zero" name="zero" value="Zerar" onclick="zero()">
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
