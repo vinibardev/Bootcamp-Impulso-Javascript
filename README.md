@@ -2,8 +2,8 @@
 
 Este repositório contém uma coleção dos projetos que desenvolvi em casa como parte dos meus estudos e para aumentar meu portfólio.
 
-* [Contador](https://vinibardev.github.io/Bootcamp-Impulso-Javascript/contador/)
-* [To-do List](https://vinibardev.github.io/Bootcamp-Impulso-Javascript/to-do%20list/)
+* [Contador](https://vinibardev.github.io/Projetos_Estudo/contador/)
+* [To-do List](https://vinibardev.github.io/Projetos_Estudo/to-do%20list/)
 
 
 ## Aqui está uma lista dos projetos incluídos neste repositório:
@@ -20,5 +20,5 @@ Este repositório contém uma coleção dos projetos que desenvolvi em casa como
 ## Contato
 
 - Vinícius Barbosa 🔥
-- [Github](https://github.com/vinibardev) 🚀:
-- [Linkedin](https://www.linkedin.com/in/viniciusbarbosadev/) 💡:
+- [Github](https://github.com/vinibardev) 🚀
+- [Linkedin](https://www.linkedin.com/in/viniciusbarbosadev/) 💡
