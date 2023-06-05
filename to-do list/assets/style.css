@@ -1,74 +1,125 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(25, 16, 89, 1) 41%, rgba(84, 9, 121, 1) 100%);
-    font-family: 'Kantumruy Pro', sans-serif;
-    font-weight: bolder;
-    font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #a5a1a1;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333333;
 }
 
 .container {
-    padding: 15px;
-    min-width: 700px;
-    min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-style: outset;
-    border-radius: 20px 40px;
-    border-color: #E7AB79;
+  padding: 30px;
+  min-width: 500px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #e3e3e3;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    font-size: 60px;
-    color: #E7AB79;
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 20px;
 }
 
 .inputTask {
-    font-family: 'Kantumruy Pro', sans-serif;
-    font-weight: bolder;
-    background-color: #000000;
-    color: #ffffff;
-    width: 200px;
-    height: 30px;
-    border-radius: 8px;
-    border-style: ridge;
-    font-size: 90%;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-weight: bold;
+  background-color: #f8f8f8;
+  color: #333333;
+  width: 300px;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid #e3e3e3;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 .inputTask::placeholder {
-    color: #ffffff
+  color: #a5a1a1;
 }
 
 .btn {
-    font-family: 'Kantumruy Pro', sans-serif;
-    font-weight: bolder;
-    width: 100px;
-    height: 40px;
-    border-radius: 8px;
-    background-color: #b964e4;
-    color: #ffffff;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #7e57c2;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-input {
-    margin-bottom: 20px;
+.btn:hover {
+  background-color: #6a4f9b;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-    list-style: none;
-    color: #e0ccbb;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
-input[type=checkbox] {
-    accent-color: #b964e4;
-
-
+.checkbox {
+  margin-right: 10px;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #a5a1a1;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
 }
 
-input[type=checkbox]:checked~label {
-    text-decoration: line-through;
-    color: #b964e4;
+.checkbox:checked {
+  border-color: #7e57c2;
+}
+
+.taskLabel {
+  font-size: 16px;
+  color: #333333;
+}
+
+.completedTask {
+  text-decoration: line-through;
+  color: #7e57c2;
+}
+
+.removeButton {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(126, 87, 194, 0.5);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.removeButton:hover {
+  background-color: rgba(126, 87, 194, 0.8);
 }
